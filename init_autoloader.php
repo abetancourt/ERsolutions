@@ -20,7 +20,9 @@
 if (file_exists('vendor/autoload.php')) {
     $loader = include 'vendor/autoload.php';
 }
-
+//echo '<pre>';
+//var_dump($loader);
+//die();
 if (class_exists('Zend\Loader\AutoloaderFactory')) {
     return;
 }
